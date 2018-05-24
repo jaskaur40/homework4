@@ -6,805 +6,805 @@ try {
 
 
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Sales",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Salesand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Product Management",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Product Managementand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Marketing",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Marketingand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Customer Support",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Customer Supportand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Customer Support",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Customer Supportand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Engineering",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Engineeringand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Engineering",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Engineeringand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Sales",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Salesand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Marketing",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Product Management",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Marketingand do inc field salary to/by 1000");
+printValues(results, "Search by department for Product Managementand do inc field salary to/by 1000");
 
-var result = db.Employee.update({departments: "Operations",{$inc:{salary:1000}});
+var result = db.Employee.update({department: "Operations",{$inc:{salary:1000}});
 
-printValues(results, "Search by departments for Operationsand do inc field salary to/by 1000");
+printValues(results, "Search by department for Operationsand do inc field salary to/by 1000");
 
 } catch (e) {
    print (e);
