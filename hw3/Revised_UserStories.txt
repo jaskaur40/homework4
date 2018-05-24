@@ -1,0 +1,57 @@
+User Stories
+
+Create:
+As a DB user, I would create seperate collections for Projects, Deparment and Employees for better management
+Acceptance Criteria:
+1. Create seperate collection for Projects, Deparment and Employees.
+2. Schema of the collections should not be stringent.
+
+As a HR user I would like create new departments for better management
+Acceptance Criteria:
+1. Create department with attributes like name and list employees in the deparment.
+2. Should be able to create multiple departments.
+
+
+As a HR manager I would like to add employee details into the system for tracking.
+Acceptance Criteria:
+1. HR should be able to add multiple employees in the system.
+2. Multiple employees can have same name etc
+
+
+
+Read
+As a engineering manager I should be able to see all employee in engineering department.
+Acceptance Criteria:
+1. Return details of all employees in engineering department
+2. Employee details not belonging to engineering department should not be returned.
+
+
+As a HR manager I would like find employees who are hired on or after a certain date to enroll them in orientation.
+Acceptance Criteria:
+1. Return all employees who are hired on or after a certain date only.
+2. Do not return employee who are hired before the specified date.
+
+As a VP I would like to find all employees who are either Manager or PMTS to invite them to a event.
+Acceptance Criteria:
+1. Return all employee who have designation of Manager or PMTS
+
+
+Update:
+As a CFO I would like to give a raise of $1000 to all employees who have a designation of PMTS as a thank you token.
+Acceptance Criteria:
+1. Find all employee who have designation of PMTS
+2. Increment PMTS current salary by $1000.
+3. Return me the updated employee record for confirmation.
+
+
+As a recruiting manager I would like to add new employee to Sales Department
+Acceptance Criteria:
+1. Create a new employee record.
+2. Update Sales Department employee's list to include new employee.
+
+As an employee I would like to move from one department to another for better career alignment.
+Acceptance Criteria:
+1. Get the current record of the employee
+2. Update the record of employee to indicate new department
+3. Remove employee from older department's employee list
+4. Add employee to new department's employee list

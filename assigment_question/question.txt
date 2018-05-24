@@ -1,0 +1,14 @@
+
+Attached Files:
+File stores.zip (12.721 MB)
+File genMongoscripts.zip (45.826 KB)
+File spr18hw4.html  Click for more options (5.893 KB)
+due: May 23, end of day
+
+(Inside genMongoscripts.zip: generate_stores.py is a Python script which uses Faker to generate data for a collection of stores for a yelp-like website.
+
+generate_store_queries.py generates MongoDB shell scripts (in JavaScript) to interact with the database.
+
+get_ids.js retrieves object ID's after the database has been populated.
+
+The stores.zip file is a sample result of running the script. These serve as an example that can help you generate the data you want for this assignment)

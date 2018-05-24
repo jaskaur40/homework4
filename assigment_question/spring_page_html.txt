@@ -1,0 +1,63 @@
+CS 6660 Spring 2018 hw4
+
+due: 5/23/2018, end of day
+
+In this assignment, you will do some query optimization and performance analysis.
+
+Generate a fair amount of data for your data model from hw3. You want enough data so that you'll be able to tell whether your choices have made an impact. I have some sample data I produced for last year's class, along with the python script used to create the data. The data is a JSON file and can be imported into MongoDB by doing the following:
+
+Start up your mongod server
+Execute the following command from the command-line:
+mongoimport /d local /c stores
+stores.json
+Now generate some scripts to run on your data. I've attached some scripts I used last year that tried to model the yelp-like domain. Note that the scripts focused on restaurants, though there are many other stores listed on yelp. (It turned out it was helpful to get the object ID's of the stores in the database, so there's also a small JavaScript script to get that from MongoDB after creating the data.) The scripts should have a distribution of different kinds of operations. Here is a list of options:
+All read operations (here, "read" does not include aggregate operations)
+A mix of read and write operations
+Only aggregate operations
+A mix of read, write, aggregate operations
+Students doing this on their own should do at least one of the "mixed" options and one other option. Students working in pairs should do all 4 options. Each mixed option should specify the relative frequency of the different categories.
+For each of your scripts, measure the time to perform the script without any changes to the database. See below if you need help doing this. Run the script 3 times to average things out. For real performance testing, the scripts would be longer, and the number of runs to get an accurate estimate would be much greater.
+Try to improve the performance of the scripts. You can create as many indexes as you want, you can create compound indexes. Try two alternative approaches and both explain them and measure the results for each one (as above, using 3 runs to try to get a more accurate result).
+Your discussion should cover what was the reasoning for the different approaches (ex: why you chose the indexes you chose) and why you think you got the performance results you got.
+Submit: your scripts, performance results and explanations.
+
+Grading
+25% script to generate data
+25% script to generate queries
+20% performance results -- include both the numbers for each individual run as well as the average
+30% discussion
+To measure performance on Linux or Mac OS X, the time command should be enough:
+
+$ time mongo queries.js
+
+
+To measure performance on Windows, open a Powershell window (should be able to find it on the Start menu under Windows Powershell). Then use the measure-command command like so. Note that the { and } are required:
+
+PS C:\tmp> measure-command {mongo C:\tmp\queries.js}
+
+
+
+Days : 0
+
+Hours : 0
+
+Minutes : 2
+
+Seconds : 46
+
+Milliseconds : 344
+
+Ticks : 1663443962
+
+TotalDays : 0.00192528236342593
+
+TotalHours : 0.0462067767222222
+
+TotalMinutes : 2.77240660333333
+
+TotalSeconds : 166.3443962
+
+TotalMilliseconds : 166344.3962
+
+
+
